@@ -150,18 +150,37 @@
     </section>
 
     <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:israelkur.aa@gmail.com">israelkur.aa@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/israelkur-ayong" target="_blank">github.com/israelkur-ayong</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/israelkur" target="_blank">linkedin.com/in/israelkur</a></p>
-      <!-- <p>LinkedIn: <a href="htt.com/in/israelkur" target="_blank">facebook.com/in/israelkur</a></p> -->
-    </section>
+  <h2>Contact</h2>
+
+  <!-- Direct contact info -->
+  <p>Email: <a href="mailto:israelkur.aa@gmail.com">israelkur.aa@gmail.com</a></p>
+  <p>GitHub: <a href="https://github.com/israelkur-ayong" target="_blank">github.com/israelkur-ayong</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/israelkur" target="_blank">linkedin.com/in/israelkur</a></p>
+
+  <br>
+
+  <!-- Contact form -->
+  <form id="contactForm">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" required></textarea><br /><br />
+
+    <button type="submit">Send Message</button>
+    <p id="formResponse"></p>
+  </form>
+</section>
+
   </main>
 
   <footer>
     <p>&copy; 2025 Israel Kur. All rights reserved.</p>
   </footer>
-
+<!-- 
   <script>
     const toggleBtn = document.getElementById("toggle-menu");
     const navLinks = document.getElementById("nav-links");
@@ -170,10 +189,10 @@
       navLinks.classList.toggle("open");
     });
     
-    
-  </script>
-  
- 
 
+  </script> -->
+  
+<script src="script.js"></script>
 </body>
 </html>
+

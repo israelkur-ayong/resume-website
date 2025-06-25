@@ -85,9 +85,74 @@ article h3 {
   color: #023e8a;
 }
 
-/* Contact */
+/* Contact Section */
+#contact {
+  background-color: #f0f8ff;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+#contact h2 {
+  color: #0077b6;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
 #contact a {
   color: #0077b6;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+  max-width: 500px;
+  margin: 1.5rem auto 0 auto;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #00b4d8;
+}
+
+#formResponse {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
 
 /* Footer */
